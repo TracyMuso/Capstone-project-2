@@ -1,0 +1,24 @@
+{
+  "name": "capstone-project-2",
+  "version": "1.0.0",
+  "description": "This is our javascript capstone project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfin-git/Capstone-project-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elfin-git/Capstone-project-2/issues"
+  },
+  "homepage": "https://github.com/elfin-git/Capstone-project-2#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
