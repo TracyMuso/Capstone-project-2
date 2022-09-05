@@ -5,6 +5,7 @@
   "private": "true",
   "scripts": {
     "test": "jest",
+    "start": "webpack serve --open",
     "build": "webpack"
   },
   "repository": {
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/elfin-git/Capstone-project-2/issues"
   },
-  "homepage": "https://github.com/elfin-git/Capstone-project-2#readme",
+  "homepage": "https://github.com/elfin-git/Capstone-project-2/dist/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
