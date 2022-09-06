@@ -21,9 +21,6 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
   },
-  devServer: {
-    static: './dist',
-  },
   plugins: [
     new HtmlWebpackPlugin({
       title: 'Movie list ',
