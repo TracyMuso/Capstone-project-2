@@ -37,3 +37,16 @@ body {
 .icon-ed {
   color: #f582a7;
 }
+
+footer {
+  position: absolute;
+  margin-top: 2rem;
+  bottom: 0;
+  height: 4rem;
+  width: 100%;
+}
+
+footer p {
+  padding: 1rem;
+  border-top: #f582a7 1px;
+}
