@@ -1,7 +1,7 @@
-*{
-    border: 0;
-    margin: 0;
-    padding: 0;
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -12,28 +12,28 @@ body {
   color: white;
 }
 
-.logo{
+.logo {
   width: 5rem;
   height: 5rem;
 }
 
-.navi{
-    display: flex;
-    justify-content: space-around;
+.navi {
+  display: flex;
+  justify-content: space-around;
 }
 
-.navi > a{
-    text-decoration: none;
-    color: white;
+.navi > a {
+  text-decoration: none;
+  color: white;
   align-self: center;
 }
 
-.header-wrapper{
-    padding: 0 2rem 0 2rem;
-    margin-top: 2rem;
-    background-color: #701a7558;
+.header-wrapper {
+  padding: 0 2rem 0 2rem;
+  margin-top: 2rem;
+  background-color: #701a7558;
 }
 
-.icon-ed{
-    color: #f582a7;
+.icon-ed {
+  color: #f582a7;
 }
