@@ -2,7 +2,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-    mode: 'development',
+  mode: 'development',
   entry: './src/index.js',
   output: {
     filename: '[name].js',
@@ -23,9 +23,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'Movie list',
-        filename: 'index.html',
-        template: './src/index.html',
+      title: 'Movie list',
+      filename: 'index.html',
+      template: './src/index.html',
     }),
   ],
   optimization: {
