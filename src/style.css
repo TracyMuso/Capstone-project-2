@@ -38,6 +38,77 @@ body {
   color: #f582a7;
 }
 
+.sec-wrapper {
+  padding: 2rem;
+}
+
+.movie-disp {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-disp li {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  background: black;
+}
+
+.movie-disp li img {
+  max-width: 400px;
+  border-radius: 12px;
+  height: 30rem;
+}
+
+.movie-disp li h2 {
+  color: #fff;
+  font-size: 1.8em;
+  padding: 15px 10px 0;
+  margin-top: auto;
+}
+
+.mv-wrapper {
+  display: flex;
+  width: 100%;
+}
+
+.mv-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.com-sec {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: auto;
+}
+
+.likes {
+  text-align: right;
+}
+
+.lk-edit {
+  color: #f582a7;
+  padding-top: 1rem;
+}
+
+.cmt {
+  background-color: #f582a7;
+  width: 70%;
+  align-self: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
 footer {
   position: absolute;
   margin-top: 2rem;
