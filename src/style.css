@@ -104,14 +104,18 @@ body {
 .cmt {
   background-color: #f582a7;
   width: 70%;
+  border-radius: 15%;
   align-self: center;
   font-size: 1.5rem;
   padding: 0.5rem;
 }
 
 .comm-popup {
+  position: absolute;
   width: 90%;
-  display: flex;
+  display: none;
+  top: 2rem;
+  height: max-content;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -130,7 +134,7 @@ body {
   font-size: 50px;
   color: #180a0a;
   position: absolute;
-  left: 90%;
+  left: 85%;
   padding: 0.2rem;
 }
 
@@ -229,7 +233,6 @@ form {
 }
 
 footer {
-  position: absolute;
   margin-top: 2rem;
   bottom: 0;
   height: 4rem;

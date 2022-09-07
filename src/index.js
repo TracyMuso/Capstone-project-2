@@ -1,4 +1,6 @@
+/* eslint-disable prefer-destructuring */
 import './style.css';
+import { commentPopup } from './modules/comment-popup.js';
 
 const options = { method: 'GET' };
 
@@ -18,10 +20,20 @@ fetch('https://api.tvmaze.com/shows', options)
        </div>
        <div class="com-sec">
        <p class="likes">5 likes</p>
-       <button type = "button" class="cmt" >Comments</button>
+       <button id="${item.id}"type="button" class="cmt" >Comments</button>
      </div>
      </div>
        </li>`;
       document.querySelector('.movie-disp').innerHTML += movie;
     });
   });
+
+const commentModal = document.querySelector('.comm-popup');
+
+document.addEventListener('click', (e) => {
+  if (e.target.matches('.cmt')) {
+    const id = e.target.id;
+    commentPopup(id);
+    commentModal.style.display = 'flex';
+  }
+});
