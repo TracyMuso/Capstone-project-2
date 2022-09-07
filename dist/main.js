@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "body {\n  width: 100%;\n}\n", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,WAAW;AACb","sourcesContent":["body {\n  width: 100%;\n}\n"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Montserrat\", sans-serif;\n  background-color: #180a0a;\n  font-style: normal;\n  width: 100%;\n  color: white;\n}\n\n.logo {\n  width: 5rem;\n  height: 5rem;\n}\n\n.navi {\n  display: flex;\n  justify-content: space-around;\n}\n\n.navi > a {\n  text-decoration: none;\n  color: white;\n  align-self: center;\n}\n\n.header-wrapper {\n  padding: 0 2rem 0 2rem;\n  margin-top: 2rem;\n  background-color: #701a7558;\n}\n\n.icon-ed {\n  color: #f582a7;\n}\n\n.sec-wrapper{\n    padding: 2rem;\n}\n\n.movie-disp{\n    width:100%;\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.movie-disp li{\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    list-style:none;\n    margin: 10px;\n    padding: 15px;\n    border-radius: 12px;\n    text-align: center;\n    background:black ;\n}\n.movie-disp li img{\n    max-width: 400px;\n    border-radius: 12px;\n    height:30rem;\n}\n.movie-disp li h2{\n    color: #fff;\n    font-size: 1.8em;\n    padding: 15px 10px 0;\n    margin-top: auto;\n}\n.mv-wrapper{\n    display: flex;\n    width: 100%;\n}\n.mv-title{\n    display: flex;\n    justify-content: space-between;\n    padding: 1rem;\n}\n\n.com-sec{\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    width: auto;\n    \n}\n.likes{\n text-align:right;\n} \n\n.lk-edit{\n    color: #f582a7;\n    padding-top: 1rem;\n}\n\n.cmt{\n    background-color: #f582a7;\n    width: 70%;\n    align-self: center;\n    font-size: 1.5rem;\n    padding: 0.5rem;\n    border-radius: 1rem;\n}", "",{"version":3,"sources":["webpack://./src/style.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,SAAS;EACT,UAAU;AACZ;;AAEA;EACE,qCAAqC;EACrC,yBAAyB;EACzB,kBAAkB;EAClB,WAAW;EACX,YAAY;AACd;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,aAAa;EACb,6BAA6B;AAC/B;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,sBAAsB;EACtB,gBAAgB;EAChB,2BAA2B;AAC7B;;AAEA;EACE,cAAc;AAChB;;AAEA;IACI,aAAa;AACjB;;AAEA;IACI,UAAU;IACV,aAAa;IACb,eAAe;AACnB;;AAEA;IACI,OAAO;IACP,aAAa;IACb,sBAAsB;IACtB,mBAAmB;IACnB,eAAe;IACf,YAAY;IACZ,aAAa;IACb,mBAAmB;IACnB,kBAAkB;IAClB,iBAAiB;AACrB;AACA;IACI,gBAAgB;IAChB,mBAAmB;IACnB,YAAY;AAChB;AACA;IACI,WAAW;IACX,gBAAgB;IAChB,oBAAoB;IACpB,gBAAgB;AACpB;AACA;IACI,aAAa;IACb,WAAW;AACf;AACA;IACI,aAAa;IACb,8BAA8B;IAC9B,aAAa;AACjB;;AAEA;IACI,aAAa;IACb,sBAAsB;IACtB,SAAS;IACT,WAAW;;AAEf;AACA;CACC,gBAAgB;AACjB;;AAEA;IACI,cAAc;IACd,iBAAiB;AACrB;;AAEA;IACI,yBAAyB;IACzB,UAAU;IACV,kBAAkB;IAClB,iBAAiB;IACjB,eAAe;IACf,mBAAmB;AACvB","sourcesContent":["* {\n  border: 0;\n  margin: 0;\n  padding: 0;\n}\n\nbody {\n  font-family: \"Montserrat\", sans-serif;\n  background-color: #180a0a;\n  font-style: normal;\n  width: 100%;\n  color: white;\n}\n\n.logo {\n  width: 5rem;\n  height: 5rem;\n}\n\n.navi {\n  display: flex;\n  justify-content: space-around;\n}\n\n.navi > a {\n  text-decoration: none;\n  color: white;\n  align-self: center;\n}\n\n.header-wrapper {\n  padding: 0 2rem 0 2rem;\n  margin-top: 2rem;\n  background-color: #701a7558;\n}\n\n.icon-ed {\n  color: #f582a7;\n}\n\n.sec-wrapper{\n    padding: 2rem;\n}\n\n.movie-disp{\n    width:100%;\n    display: flex;\n    flex-wrap: wrap;\n}\n\n.movie-disp li{\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    list-style:none;\n    margin: 10px;\n    padding: 15px;\n    border-radius: 12px;\n    text-align: center;\n    background:black ;\n}\n.movie-disp li img{\n    max-width: 400px;\n    border-radius: 12px;\n    height:30rem;\n}\n.movie-disp li h2{\n    color: #fff;\n    font-size: 1.8em;\n    padding: 15px 10px 0;\n    margin-top: auto;\n}\n.mv-wrapper{\n    display: flex;\n    width: 100%;\n}\n.mv-title{\n    display: flex;\n    justify-content: space-between;\n    padding: 1rem;\n}\n\n.com-sec{\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    width: auto;\n    \n}\n.likes{\n text-align:right;\n} \n\n.lk-edit{\n    color: #f582a7;\n    padding-top: 1rem;\n}\n\n.cmt{\n    background-color: #f582a7;\n    width: 70%;\n    align-self: center;\n    font-size: 1.5rem;\n    padding: 0.5rem;\n    border-radius: 1rem;\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -538,6 +538,32 @@ module.exports = styleTagTransform;
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ "./src/style.css");
 
+
+const options = { method: 'GET' };
+
+fetch('https://api.tvmaze.com/shows', options)
+  .then((response) => response.json())
+  .then((data) => {
+    const list = data.slice(0, 6);
+    list.forEach((item) => {
+      const { name } = item;
+      const poster = item.image.original;
+      const movie = `<li>
+        <div>
+      <img src=" ${poster}" class="img">
+       <div class = "mv-title">
+        <h2>${name}</h2>
+        <i class="fa-regular lk-edit fa-heart"></i>
+       </div>
+       <div class="com-sec">
+       <p class="likes">5 likes</p>
+       <button type = "button" class="cmt" >Comments</button>
+     </div>
+     </div>
+       </li>`;
+      document.querySelector('.movie-disp').innerHTML += movie;
+    });
+  });
 
 
 /***/ })
