@@ -2,7 +2,7 @@
 
 > This is our javascript capstone project. In it we implemented a streaming app. The user can view the available shows, like and comment on a particular show. We used the tm novies api to fetch the data about each show.
 
-<img src="https://github.com/elfin-git/Leaderboard/blob/dev/img/appUI1.png" width="700" height="500"/>
+<img src="./src/img/Homepage.png" width="700" height="500"/>
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
@@ -89,13 +89,15 @@ npx eslint .
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
 - LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-musongole)
 
-## 🤝 Contributing
 👤 **Festus Enning**
 
-- GitHub: [@githubhandle](https://github.com/elfin-git)
-- Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
-- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-musongole)
+- GitHub: [@githubhandle](https://github.com/Enning94)
+- Twitter: [@twitterhandle](https://twitter.com/nana_akyerefi)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/enning-festus)
 
+
+
+## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
 
