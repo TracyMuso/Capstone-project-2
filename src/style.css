@@ -92,10 +92,6 @@ body {
   width: auto;
 }
 
-.likes {
-  text-align: right;
-}
-
 .lk-edit {
   color: #f582a7;
   padding-top: 1rem;
@@ -111,11 +107,13 @@ body {
 }
 
 .comm-popup {
-  position: absolute;
+  position: fixed;
+  overflow-y: scroll;
   width: 90%;
   display: none;
-  top: 2rem;
-  height: max-content;
+  top: 0;
+  bottom: 0;
+  left: 0;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -123,6 +121,18 @@ body {
   z-index: 5;
   padding: 2rem;
 }
+
+/* .overflow {
+  transition: 200ms ease-in-out;
+  position: fixed;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+} */
 
 .poster {
   width: 60%;
@@ -141,9 +151,21 @@ body {
 .movie-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
   width: 60%;
   background-color: #f582a7;
+}
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 2em;
 }
 
 .movie-title {
@@ -162,6 +184,7 @@ body {
 span {
   font-size: 18px;
   padding: 0.5rem;
+  text-align: justify;
 }
 
 h3 {
@@ -175,6 +198,9 @@ h3 {
   padding: 0.5rem;
   text-align: start;
   width: 60%;
+  min-height: 7rem;
+  max-width: max-content;
+  overflow-y: scroll;
 }
 
 .comment {

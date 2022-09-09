@@ -30,10 +30,10 @@ fetch('https://api.tvmaze.com/shows', options)
 
 const commentModal = document.querySelector('.comm-popup');
 
-document.addEventListener('click', (e) => {
+document.addEventListener('click', async (e) => {
   if (e.target.matches('.cmt')) {
     const id = e.target.id;
-    commentPopup(id);
+    await commentPopup(id);
     commentModal.style.display = 'flex';
   }
 });
