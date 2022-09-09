@@ -16,8 +16,11 @@
 
 ## Live Demo 
 
-[liveDemoLink](https://elfin-git.github.io/Capstone-project-2/dist/)
-You can click [here](https://drive.google.com/file/d/1vLHKtaT8Pp3Crx5S0LBR63rwnihQKqoE/view?usp=sharing) for the video presentation.
+Click here for the [live demo link](https://elfin-git.github.io/Capstone-project-2/dist/)
+
+## Description video
+
+Click [here](https://drive.google.com/file/d/1vLHKtaT8Pp3Crx5S0LBR63rwnihQKqoE/view?usp=sharing) for the video presentation.
 
 ## Getting Started
 
