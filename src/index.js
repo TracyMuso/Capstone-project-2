@@ -1,13 +1,13 @@
 import './style.css';
 import getLikes from './getLikes.js';
 import postLikes from './createLikes.js';
-
-let count = 0;
+import dispCounter from './itemCounter.js';
 
 fetch('https://api.tvmaze.com/shows')
   .then((response) => response.json())
   .then((data) => {
-    const list = data.slice(0, 8);
+    const list = data.slice(0, 6);
+    dispCounter(list.length);
     list.forEach((item, index) => {
       const { name } = item;
       const poster = item.image.original;
@@ -25,12 +25,8 @@ fetch('https://api.tvmaze.com/shows')
      </div>
        </li>`;
       document.querySelector('.movie-disp').innerHTML += movie;
-      count += 1;
     });
 
     getLikes();
     postLikes();
-
-    const movieUpdate = document.getElementById('movies-count');
-    movieUpdate.innerHTML = `Movies(${count})`;
   });
