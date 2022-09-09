@@ -92,10 +92,6 @@ body {
   width: auto;
 }
 
-.likes {
-  text-align: right;
-}
-
 .lk-edit {
   color: #f582a7;
   padding-top: 1rem;
@@ -105,13 +101,153 @@ body {
 .cmt {
   background-color: #f582a7;
   width: 70%;
+  border-radius: 15%;
   align-self: center;
   font-size: 1.5rem;
   padding: 0.5rem;
 }
 
-footer {
+.comm-popup {
+  position: fixed;
+  overflow-y: scroll;
+  width: 90%;
+  display: none;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: #711a75;
+  z-index: 5;
+  padding: 2rem;
+}
+
+.poster {
+  width: 60%;
+  margin: auto;
+  height: 25rem;
+}
+
+.fa-x {
+  font-size: 50px;
+  color: #180a0a;
   position: absolute;
+  left: 85%;
+  padding: 0.2rem;
+}
+
+.movie-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  width: 60%;
+  background-color: #f582a7;
+}
+
+.more-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 5rem;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 2em;
+}
+
+.movie-title {
+  padding: 0.5rem;
+  font-size: 35px;
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.movie-info {
+  padding: 0.6rem;
+  margin: auto;
+  text-align: start;
+}
+
+span {
+  font-size: 18px;
+  padding: 0.5rem;
+  text-align: justify;
+}
+
+h3 {
+  padding: 0.7rem;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.comment-section {
+  padding: 0.5rem;
+  text-align: start;
+  width: 60%;
+  min-height: 7rem;
+  max-width: max-content;
+  overflow-y: scroll;
+}
+
+.comment {
+  text-align: start;
+  font-size: 20px;
+  padding: 0.5rem;
+}
+
+form {
+  width: 40%;
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0.6rem;
+  margin: auto;
+}
+
+#name {
+  font-size: 15px;
+  padding: 0.4rem;
+  border-radius: 3%;
+  width: 80%;
+}
+
+#add-comment {
+  font-size: 15px;
+  padding: 0.4rem;
+  border-radius: 3%;
+  width: 80%;
+}
+
+.comm-btn {
+  padding: 0.5rem;
+  background-color: #f10086;
+  border-radius: 15%;
+  font-size: 16px;
+  animation: zoom-in-zoom-out 1.5s infinite;
+}
+
+.comm-btn:hover {
+  background-color: #f582a7;
+  animation: none;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.3, 1.3);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
+footer {
   margin-top: 2rem;
   bottom: 0;
   height: 4rem;

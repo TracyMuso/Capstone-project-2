@@ -1,4 +1,6 @@
+/* eslint-disable prefer-destructuring */
 import './style.css';
+import { commentPopup } from './modules/comment-popup.js';
 import getLikes from './getLikes.js';
 import postLikes from './createLikes.js';
 import dispCounter from './itemCounter.js';
@@ -19,14 +21,23 @@ fetch('https://api.tvmaze.com/shows')
       <i data-id="${index}" class="fa-regular lk-edit fa-heart"></i>
        </div>
        <div class="com-sec">
-       <p class="likes"  data-id="${index}"></p>
-       <button type = "button" class="cmt" >Comments</button>
+       <p class="likes" data-id="${index}"></p>
+       <button id="${item.id}"type="button" class="cmt" >Comments</button>
      </div>
      </div>
        </li>`;
       document.querySelector('.movie-disp').innerHTML += movie;
     });
-
     getLikes();
     postLikes();
   });
+
+const commentModal = document.querySelector('.comm-popup');
+
+document.addEventListener('click', async (e) => {
+  if (e.target.matches('.cmt')) {
+    const id = e.target.id;
+    await commentPopup(id);
+    commentModal.style.display = 'flex';
+  }
+});
