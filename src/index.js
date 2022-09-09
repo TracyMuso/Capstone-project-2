@@ -1,9 +1,9 @@
 /* eslint-disable prefer-destructuring */
 import './style.css';
 import { commentPopup } from './modules/comment-popup.js';
-import getLikes from './getLikes.js';
-import postLikes from './createLikes.js';
-import dispCounter from './itemCounter.js';
+import getLikes from './modules/getLikes.js';
+import postLikes from './modules/createLikes.js';
+import dispCounter from './modules/itemCounter.js';
 
 fetch('https://api.tvmaze.com/shows')
   .then((response) => response.json())

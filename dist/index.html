@@ -4,18 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MovieLicious</title>
     <script
       src="https://kit.fontawesome.com/00fad0ddbb.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
   <script defer src="runtime.js"></script><script defer src="main.js"></script></head>
   <body>
     <header class="header-wrapper">
       <nav class="navi">
         <img src="logo.png" alt="page-logo" class="logo" />
         <a href="#"><i class="fa-solid icon-ed fa-house"></i> Home</a>
-        <a href="#"><i class="fa-solid icon-ed fa-film"></i> Movies(6)</a>
+        <a href="#"><i class="fa-solid icon-ed fa-film"></i><span id="movies-count"></span></a>
         <a href="#"><i class="fa-solid icon-ed fa-circle-info"></i> About</a>
       </nav>
     </header>
@@ -25,7 +26,7 @@
     </div>
     <div class="comm-popup"></div>
     </section>
-    <footer>
+    <footer class = "ft-design">
         <p>Designed by Tracy and Festus</p>
     </footer>
   </body>
