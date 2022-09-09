@@ -130,6 +130,10 @@ body {
   height: 25rem;
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 .fa-x {
   font-size: 50px;
   color: #180a0a;

@@ -7,6 +7,7 @@ const postLikes = async () => {
   likeBtn.forEach((icon) => {
     icon.addEventListener('click', (e) => {
       counter(e);
+      icon.classList.add('disabled');
       fetch(baseUrl, {
         method: 'POST',
         headers: {
@@ -19,4 +20,5 @@ const postLikes = async () => {
     });
   });
 };
+
 export default postLikes;
