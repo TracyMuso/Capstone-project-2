@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest",
     "start": "webpack serve --open",
+    "deploy": "gh-pages -d dist/",
     "build": "webpack"
   },
   "repository": {
@@ -40,6 +41,7 @@
     "webpack-dev-server": "^4.10.1"
   },
   "dependencies": {
-    "autoprefixer": "10.4.5"
+    "autoprefixer": "10.4.5",
+    "gh-pages": "^4.0.0"
   }
 }

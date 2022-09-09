@@ -1,6 +1,6 @@
 ## Series Streaming app
 
-> This is our javascript capstone project. In it we implemented a streaming app. The user can view the available shows, like and comment on a particular show. We used the tm novies api to fetch the data about each show.
+> This is our javascript capstone project. In it we implemented a streaming app. The user can view the available shows, like and comment on a particular show. We used the [tvmaze REST API](https://api.tvmaze.com/shows) to fetch the data about each show.
 
 <img src="./src/img/Homepage.png" width="700" height="500"/>
 
@@ -16,7 +16,8 @@
 
 ## Live Demo 
 
-[liveDemoLink](https://elfin-git.github.io/Capstone-project-2/dist)
+[liveDemoLink](https://elfin-git.github.io/Capstone-project-2/dist) 
+You can click [here](https://drive.google.com/file/d/15GbPTbVVJRixZ1D7rnejhbMsJD6aJtUc/view?usp=sharing) for the video presentation.
 
 ## Getting Started
 
