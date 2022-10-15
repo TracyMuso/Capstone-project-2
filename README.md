@@ -16,7 +16,7 @@
 
 ## Live Demo 
 
-Click here for the [live demo link](https://elfin-git.github.io/Capstone-project-2/dist/)
+Click here for the [live demo link](https://TracyMuso.github.io/Capstone-project-2/dist/)
 
 ## Description video
 
@@ -50,7 +50,7 @@ Click [here](https://drive.google.com/file/d/1vLHKtaT8Pp3Crx5S0LBR63rwnihQKqoE/v
 
     - Use the git clone command along with the copied URL from earlier;
 
-    - $ git clone https://github.com/elfin-git/Capstone-project-2
+    - $ git clone https://github.com/TracyMuso/Capstone-project-2
 
    - Press Enter;
 
@@ -89,9 +89,9 @@ npx eslint .
 
 👤 **Tracy Musongole**
 
-- GitHub: [@githubhandle](https://github.com/elfin-git)
+- GitHub: [@githubhandle](https://github.com/TracyMuso)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
-- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-musongole)
+- LinkedIn: [@LinkedIn](https://linkedin.com/in/tracy-muso)
 
 👤 **Festus Enning**
 
@@ -105,7 +105,7 @@ npx eslint .
 Contributions, issues, and feature requests are welcome!
 
 
-Feel free to check the [issues page](https://github.com/elfin-git/Capstone-project-2/issues).
+Feel free to check the [issues page](github.com/TracyMuso/Capstone-project-2/issues).
 
 ## Show your support
 
@@ -119,4 +119,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/elfin-git/Capstone-project-2/blob/dev/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.

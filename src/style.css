@@ -134,6 +134,10 @@ body {
   pointer-events: none;
 }
 
+.summary {
+  padding: 0.5rem;
+}
+
 .fa-x {
   font-size: 50px;
   color: #180a0a;
